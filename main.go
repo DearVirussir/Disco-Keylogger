@@ -19,7 +19,7 @@ import (
 	"golang.org/x/sys/windows/registry"
 )
 
-const webhookURL = "https://discord.com/api/webhooks/1393190214238998598/RTf67SJLv3lWkdlSeYbSQZ8mM9kxPHMHSpTtXf1DYNhQmT_yWET1qIWKNBCpKdWi3Gx9"
+const webhookURL = "https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE"
 
 type WebhookPayload struct {
 	Content string  `json:"content"`
@@ -457,4 +457,5 @@ func main() {
 		// Reduce CPU usage
 		time.Sleep(10 * time.Millisecond)
 	}
+
 }
